@@ -1,5 +1,5 @@
 # MetaFormer
-A repository for the code used to create and train the model defined in “MetaFormer : A Unified Meta Framework for Fine-Grained Recognition”
+A repository for the code used to create and train the model defined in “MetaFormer : A Unified Meta Framework for Fine-Grained Recognition” [arxiv]()
 ![Image text](figs/overview.png)
 ## Model zoo
 | name       | resolution   | 1k model   |  21k model   | iNat21 model   |
