@@ -1,0 +1,8 @@
+DATA:
+  IMG_SIZE: 224
+  ADD_META: True
+MODEL:
+  TYPE: MetaFG
+  NAME: MetaFG_meta_0
+  EXTRA_TOKEN_NUM: 33
+  META_DIMS: [ 768, ]

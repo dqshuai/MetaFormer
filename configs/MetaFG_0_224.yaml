@@ -1,0 +1,5 @@
+DATA:
+  IMG_SIZE: 224
+MODEL:
+  TYPE: MetaFG
+  NAME: MetaFG_0
