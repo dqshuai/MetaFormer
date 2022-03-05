@@ -1,9 +1,12 @@
-# MetaFG
+# MetaFormer
 A repository for the code used to create and train the model defined in “MetaFormer : A Unified Meta Framework for Fine-Grained Recognition”
-
+![Image text](figs/overview.png)
 ## Model zoo
 | name       | resolution   | 1k model   |  21k model   | iNat21 model   |
 | :--------: | :----------: | :--------: | :----------: | :------------: |
+| MetaFormer-0   | 224x224 | [metafg_0_1k_224]()|[metafg_0_21k_224]()|-|
+| MetaFormer-1   | 224x224 | [metafg_1_1k_224]()|[metafg_1_21k_224]()|-|
+| MetaFormer-2   | 224x224 | [metafg_2_1k_224]()|[metafg_2_21k_224]()|-|
 | MetaFormer-0   |     384x384      |  [metafg_0_1k_384](https://drive.google.com/file/d/1r62S3CJFRWV_qA5udC9MOFOJYwRf8mE2/view?usp=sharing)  |  [metafg_0_21k_384](https://drive.google.com/file/d/1wVmlPjNTA6JKHcF3ROGorEVPxKVO83Ss/view?usp=sharing)  |  [metafg_0_inat21_384](https://drive.google.com/file/d/11gCk_IuSN7krdkOUSWSM4xlf8GGknmxc/view?usp=sharing)  |
 | MetaFormer-1   |     384x384      |  [metafg_1_1k_384](https://drive.google.com/file/d/12OTmZg4J6fMGvs-colOTDfmhdA5EMMvo/view?usp=sharing)  |  [metafg_1_21k_384](https://drive.google.com/file/d/13dsarbtsNrkhpG5XpCRlN5ogXDGXO3Z_/view?usp=sharing)  |  [metafg_1_inat21_384](https://drive.google.com/file/d/1ATUIrDxaQaGqx4lJ8HE2IwX_evMhblPu/view?usp=sharing)  |
 | MetaFormer-2   |     384x384      |  [metafg_2_1k_384](https://drive.google.com/file/d/167oBaseORq32aFA3Ex6lpHuasvu2PMb8/view?usp=sharing)  |  [metafg_2_21k_384](https://drive.google.com/file/d/1PnpntloQaYduEokFGQ6y79G7DdyjD_u3/view?usp=sharing)  |  [metafg_2_inat21_384](https://drive.google.com/file/d/17sUNST7ivQhonBAfZEiTOLAgtaHa4F3e/view?usp=sharing)  |
