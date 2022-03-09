@@ -1,3 +1,4 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/metaformer-a-unified-meta-framework-for-fine/fine-grained-image-classification-on-cub-200)](https://paperswithcode.com/sota/fine-grained-image-classification-on-cub-200?p=metaformer-a-unified-meta-framework-for-fine)
 # MetaFormer
 A repository for the code used to create and train the model defined in “MetaFormer : A Unified Meta Framework for Fine-Grained Recognition” [arxiv:2203.02751](http://arxiv.org/abs/2203.02751)
 ![Image text](figs/overview.png)
@@ -31,7 +32,7 @@ pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp
 pip install opencv-python==4.5.1.48 yacs==0.1.8
 ```
 #### data preparation
-Download [inat21,18,17](https://github.com/visipedia/inat_comp),[CUB](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html),[NABirds](https://dl.allaboutbirds.org/nabirds),[stanfordcars](https://ai.stanford.edu/~jkrause/cars/car_dataset.html), and[aircraft](https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/), put them in respective folders (\<root\>/datasets/<dataset_name>) and Unzip file. The folder sturture as follow:
+Download [inat21,18,17](https://github.com/visipedia/inat_comp),[CUB](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html),[NABirds](https://dl.allaboutbirds.org/nabirds),[stanfordcars](https://ai.stanford.edu/~jkrause/cars/car_dataset.html), and [aircraft](https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/), put them in respective folders (\<root\>/datasets/<dataset_name>) and Unzip file. The folder sturture as follow:
 ```
 datasets
   |————inraturelist2021
