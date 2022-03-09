@@ -1,4 +1,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/metaformer-a-unified-meta-framework-for-fine/fine-grained-image-classification-on-cub-200)](https://paperswithcode.com/sota/fine-grained-image-classification-on-cub-200?p=metaformer-a-unified-meta-framework-for-fine)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/metaformer-a-unified-meta-framework-for-fine/fine-grained-image-classification-on-nabirds)](https://paperswithcode.com/sota/fine-grained-image-classification-on-nabirds?p=metaformer-a-unified-meta-framework-for-fine)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/metaformer-a-unified-meta-framework-for-fine/image-classification-on-inaturalist)](https://paperswithcode.com/sota/image-classification-on-inaturalist?p=metaformer-a-unified-meta-framework-for-fine)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/metaformer-a-unified-meta-framework-for-fine/image-classification-on-inaturalist-2018)](https://paperswithcode.com/sota/image-classification-on-inaturalist-2018?p=metaformer-a-unified-meta-framework-for-fine)
 # MetaFormer
 A repository for the code used to create and train the model defined in “MetaFormer : A Unified Meta Framework for Fine-Grained Recognition” [arxiv:2203.02751](http://arxiv.org/abs/2203.02751)
 ![Image text](figs/overview.png)
