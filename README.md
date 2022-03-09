@@ -117,5 +117,15 @@ Results in iNaturalist 2019, iNaturalist 2018, and iNaturalist 2021 with meta-in
 |MetaFormer-2|ImageNet-21k|N|80.4|84.3|90.3|
 |MetaFormer-2|ImageNet-21k|Y|83.4(+3.0)|88.7(+4.4)|93.6(+3.3)|
 ## Citation
+
+```
+@article{MetaFormer,
+  title={MetaFormer: A Unified Meta Framework for Fine-Grained Recognition},
+  author={Diao, Qishuai and Jiang, Yi and Wen, Bin and Sun, Jia and Yuan, Zehuan},
+  journal={arXiv preprint arXiv:2203.02751},
+  year={2022},
+}
+```
+
 ## Acknowledgement
 Many thanks for [swin-transformer](https://github.com/microsoft/Swin-Transformer).A part of the code is borrowed from it.
