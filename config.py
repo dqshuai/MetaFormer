@@ -19,7 +19,7 @@ _C.BASE = ['']
 # -----------------------------------------------------------------------------
 _C.DATA = CN()
 # Batch size for a single GPU, could be overwritten by command line argument
-_C.DATA.BATCH_SIZE = 128
+_C.DATA.BATCH_SIZE = 32
 # Path to dataset, could be overwritten by command line argument
 _C.DATA.DATA_PATH = ''
 # Dataset name
@@ -37,7 +37,7 @@ _C.DATA.CACHE_MODE = 'part'
 # Pin CPU memory in DataLoader for more efficient (sometimes) transfer to GPU.
 _C.DATA.PIN_MEMORY = True
 # Number of data loading threads
-_C.DATA.NUM_WORKERS = 8
+_C.DATA.NUM_WORKERS = 4
 # hdfs data dir
 _C.DATA.TRAIN_PATH = None
 _C.DATA.VAL_PATH = None
@@ -63,7 +63,7 @@ _C.MODEL.NAME = ''
 # Checkpoint to resume, could be overwritten by command line argument
 _C.MODEL.RESUME = ''
 # Number of classes, overwritten in data preparation
-_C.MODEL.NUM_CLASSES = 1000
+_C.MODEL.NUM_CLASSES = 200#1000
 # Dropout rate
 _C.MODEL.DROP_RATE = 0.0
 # Drop path rate
@@ -89,9 +89,9 @@ _C.TRAIN.START_EPOCH = 0
 _C.TRAIN.EPOCHS = 300
 _C.TRAIN.WARMUP_EPOCHS = 20
 _C.TRAIN.WEIGHT_DECAY = 0.05
-_C.TRAIN.BASE_LR = 5e-4
+_C.TRAIN.BASE_LR = 1e-4 # 5e-4
 _C.TRAIN.WARMUP_LR = 5e-7
-_C.TRAIN.MIN_LR = 5e-6
+_C.TRAIN.MIN_LR = 1e-5 # 5e-6
 # Clip gradient norm
 _C.TRAIN.CLIP_GRAD = 5.0
 # Auto resume from latest checkpoint
@@ -271,3 +271,24 @@ def get_config(args):
     update_config(config, args)
 
     return config
+
+
+################### For Inferencing ####################
+def update_inference_config(config, args):
+    _update_config_from_file(config, args.cfg)
+
+    config.defrost()
+
+    config.freeze()
+
+
+def get_inference_config(cfg_path):
+    """Get a yacs CfgNode object with default values."""
+    # Return a clone so that the defaults will not be altered
+    # This is for the "local variable" use pattern
+    config = _C.clone()
+    update_inference_config(config, cfg_path)
+
+    return config
+
+################### For Inferencing ####################
